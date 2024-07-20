@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+tbody tr:hover {
+  border-block: 1px solid black;
+  color: white;
+}
+
+#idNumber,
+#dateOfBirth,
+#lastName,
+#middleName,
+#username,
+#password,
+#firstName {
+  border-bottom: 1px solid black;
+  background: rgb(240, 238, 238);
+  padding-inline: 8px;
+  outline: none;
+  font-family: "IBM Plex Sans", sans-serif;
+}
